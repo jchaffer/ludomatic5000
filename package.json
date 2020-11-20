@@ -27,7 +27,7 @@
   "dependencies": {
     "csvtojson": "^0.3.21",
     "express": "^4.12.4",
-    "fs-extra": "^0.18.3",
+    "fs-extra": "^7.0.1",
     "hogan.js": "^3.0.2",
     "jade": "^1.9.2",
     "less": "^2.5.1",
