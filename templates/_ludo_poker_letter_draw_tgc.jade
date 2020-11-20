@@ -15,7 +15,7 @@ html(lang="en")
             window.onload = function(){
                 var comp = document.getElementsByClassName("component")[0];
                 var unzoomedWidth = comp.offsetWidth;
-                var viewPortWidth = 750;
+                var viewPortWidth = #{config.width};
                 var ratio = viewPortWidth/unzoomedWidth;
                 document.body.style.zoom = ratio;
             }
